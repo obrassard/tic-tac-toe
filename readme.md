@@ -19,7 +19,8 @@ Ouvrir le navigateur à l'adresse affichée dans la console.
 
 
 Code pour l'atelier :
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/obrassard/tic-tac-toe)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/obrassard/tic-tac-toe/tree/atelier)
+
 
 Exemple complet :
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/obrassard/tic-tac-toe)
