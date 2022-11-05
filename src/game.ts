@@ -1,4 +1,4 @@
-import { rafrachirGrille, modifierJoueurCourant, modifierEtatPartie } from './hooks/useGameBridge';
+import { rafrachirGrille, modifierJoueurCourant, modifierEtatPartie } from './react/hooks/useGameBridge';
 
 export type Joueur = 'X' | 'O';
 export type GrilleJeu = Array<Joueur | null>;

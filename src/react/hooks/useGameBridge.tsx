@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { BehaviorSubject, Subscription } from "rxjs";
-import { EtatPartie, GrilleJeu, initialiserJeu, Joueur } from "../controller";
+import { EtatPartie, GrilleJeu, initialiserJeu, Joueur } from "../../game";
 
 const { grille, joueur, etat } = initialiserJeu();
 

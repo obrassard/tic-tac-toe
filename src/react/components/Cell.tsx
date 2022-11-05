@@ -1,4 +1,4 @@
-import { useClassNames } from './hooks/useClassName';
+import { useClassNames } from '../hooks/useClassName';
 
 interface GridCellProps {
     value: string | null;

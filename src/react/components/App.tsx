@@ -1,7 +1,7 @@
 import { useCallback } from "react"
-import { enregistrerCoup, EtatPartie, reinitialiserJeu } from "./controller"
+import { enregistrerCoup, EtatPartie, reinitialiserJeu } from "../../game"
 import { Grid } from "./Grid"
-import { useGameBridge } from './hooks/useGameBridge';
+import { useGameBridge } from '../hooks/useGameBridge';
 
 function App() {
 
