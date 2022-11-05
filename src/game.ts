@@ -25,73 +25,27 @@ export function initialiserJeu(): Jeu {
 }
 
 function creerGrilleVide(): GrilleJeu {
-    const grille = [
-        null, null, null,
-        null, null, null,
-        null, null, null
-    ];
-    return grille;
+    throw new Error('Not implemented');
 }
 
-var joueurInitial = 'X';
 function choisirJoueurInitial(): Joueur {
-    if (joueurInitial === 'X') {
-        joueurInitial = 'O';
-        return 'O';
-    } else {
-        joueurInitial = 'X';
-        return 'X';
-    }
+    throw new Error('Not implemented');
 }
 
 export function enregistrerCoup(grille: GrilleJeu, joueur: Joueur, position: number): void {
-    if (position < 0 || position >= grille.length) {
-        throw new Error('Position invalide');
-    } 
-
-    if (grille[position] !== null) {
-        console.log('Position déjà prise');
-    } else {
-        grille[position] = joueur;
-        const prochainJoueur = obtenirProchainJoueur(joueur);
-        rafrachirGrille(grille);
-        modifierJoueurCourant(prochainJoueur);
-        verifierFinPartie(grille);
-    }
-}
-
-function obtenirProchainJoueur(joueur: Joueur) : Joueur {
-    if (joueur === 'X') {
-        return 'O';
-    } else {
-        return 'X';
-    }
+    throw new Error('Not implemented');
 }
 
 export function reinitialiserJeu(): void {
-    const jeu = initialiserJeu();
-    rafrachirGrille(jeu.grille);
-    modifierJoueurCourant(jeu.joueur);
-    modifierEtatPartie(EtatPartie.EnCours);
+    throw new Error('Not implemented');
 }
 
 function verifierFinPartie(grille: GrilleJeu) : void {
-    const gagnant = verifierVictoire(grille);
-    const matchNul = verifierMatchNul(grille);
-
-    if (gagnant != null) {
-        if (gagnant === 'X') {
-            modifierEtatPartie(EtatPartie.GagnantX);
-        } else {
-            modifierEtatPartie(EtatPartie.GagnantO);
-        }
-    } else if (matchNul) {
-        modifierEtatPartie(EtatPartie.MatchNul);
-    }
+    throw new Error('Not implemented');
 }
 
 function verifierMatchNul(grille: GrilleJeu) : boolean {
-    return grille.every((valeur) => valeur !== null);
+    throw new Error('Not implemented');
 }
 
 function verifierVictoire(grille: GrilleJeu): Joueur | null {
@@ -106,13 +60,6 @@ function verifierVictoire(grille: GrilleJeu): Joueur | null {
         [2, 4, 6]
     ];
 
-    for (let i = 0; i < lignesGagnante.length; i++) {
-        const [a, b, c] = lignesGagnante[i];
-        if (grille[a] && grille[a] === grille[b] && grille[a] === grille[c]) {
-            return grille[a];
-        }
-    }
-
-    return null;
+    throw new Error('Not implemented');
 }
 
