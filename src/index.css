@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  @apply h-full;
+}
+
+body {
+  @apply p-4;
+}
+
+h1 {
+  font-family: 'Pacifico';
+}
+
+p {
+  font-family: 'Comfortaa';
+}
+
+.grid-cell {
+  font-family: 'Comfortaa';
+  font-size: 4rem;
+  margin-top: 12px;
+}
