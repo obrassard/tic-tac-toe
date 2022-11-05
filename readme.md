@@ -12,3 +12,15 @@ npm install
 npm start
 ```
 Ouvrir le navigateur à l'adresse affichée dans la console.
+
+---
+
+### Sandbox :
+
+
+Code pour l'atelier :
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/obrassard/tic-tac-toe)
+
+Exemple complet :
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/obrassard/tic-tac-toe)
+
