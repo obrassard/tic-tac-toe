@@ -106,13 +106,13 @@ function verifierVictoire(grille: GrilleJeu): Joueur | null {
         [2, 4, 6]
     ];
 
-    for (let i = 0; i < lignesGagnante.length; i++) {
-        const [a, b, c] = lignesGagnante[i];
+    for (let ligne of lignesGagnante) {
+        const [a, b, c] = ligne;
         if (grille[a] && grille[a] === grille[b] && grille[a] === grille[c]) {
             return grille[a];
         }
     }
-
+    
     return null;
 }
 
